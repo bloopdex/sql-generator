@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "sql_generator"
+version = "0.1.0"
+description = "A project to generate SQL queries from natural language questions."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+openai = "^0.27.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+# Minimal PEP 621 `project` table for tools that expect it. Values mirror the poetry metadata.
+[project]
+name = "sql_generator"
+version = "0.1.0"
+description = "A project to generate SQL queries from natural language questions."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [ { name = "Your Name", email = "youremail@example.com" } ]
+requires-python = ">=3.8"
+dependencies = ["openai>=0.27.0"]
