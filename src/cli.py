@@ -8,7 +8,7 @@ from src.agents.sql_agent import (
     execute_sql_on_db,
     infer_dialect_from_url,
 )
-from src.api import app
+from src.server import app
 
 logger = logging.getLogger("sql_generator.cli")
 
