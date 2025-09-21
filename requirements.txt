@@ -2,4 +2,12 @@ openai
 python-dotenv
 pytest
 fastapi
+uvicorn
+httpx
+asyncpg
+sqlalchemy
+fastapi
 uvicorn[standard]
+oracledb
+sqlalchemy
+uvicorn

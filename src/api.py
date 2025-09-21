@@ -16,7 +16,7 @@ app = FastAPI(title="SQL Generator API", version="0.1")
 class SQLRequest(BaseModel):
     question: str
     tables_path: Optional[str] = "data/tables.json"
-    model: Optional[str] = "moonshotai/kimi-k2"
+    model: Optional[str] = "moonshotai/kimi-k2:free"
     stream: Optional[bool] = False
 
 
